@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrift Secraba</title>
+    <link rel="stylesheet" href="styles.css">
+      <!-- Basic -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <!-- Site Metas -->
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+    
+      <title>Thrift Secraba</title>
+    
+      <!-- slider stylesheet -->
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    
+      <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet" />
+      <!-- responsive style -->
+      <link href="css/responsive.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+      <style>
+        .text-warning {
+            font-family: 'Sofia', sans-serif;
+        }
+        .container {
+            margin-bottom: 20px; /* Menambahkan margin bawah pada container gambar */
+        }
+        .card-wide {
+          width: 200%;
+      }
+      .bg-blue {
+          background-color: blue;
+          color: white; /* Agar teks tetap terlihat di atas latar belakang biru */
+          padding: 5px 20px; /* Menambahkan padding agar terlihat lebih rapi */
+          display: inline-block; /* Membuat elemen span menjadi inline-block untuk latar belakang */
+      }
+    </style>
+  </head>
+      
+      <body class="sub_page">
+        <div class="hero_area">
+          <!-- header section strats -->
+          <header class="header_section">
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+                <div class="main_nav_menu">
+                  <div class="fk_width">
+                    <div class="custom_menu-btn">
+                      <button onclick="openNav()">
+                        <span class="s-1"> </span>
+                        <span class="s-2"> </span>
+                        <span class="s-3"> </span>
+                      </button>
+                    </div>
+                    <div id="myNav" class="overlay">
+                      <div class="overlay-content">
+                        <a class="" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+                        <a class="" href="about.html">Tentang </a>
+                        <a class="" href="gallery.html">Galeri </a>
+                        <a class="" href="contact.html">kontak </a>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="navbar-brand" href="index.html">
+                    <span>
+                      <h5 >Thrift Secraba</h5>
+                    </span>
+                  </a>
+                  <div class="user_option">
+                    <a href="gallery.html" class="login-link">
+                        <div class="login-box">
+                            <h5>Kembali</h5>
+                        </div>
+                    </a>
+                    <input class="form-control" id="myInput" type="text" placeholder="Pencarian..">
+                    <br>
+                    <form class="form-inline">
+                      <button class="btn nav_search-btn" type="submit"></button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </header>
+          <div class="container">
+            <h1 class="text-warning"><b>Form Pembelian</b></h1>
+            <div class="product-info">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="image-info">
+                            <img src="images/produk6.jpg" class="img-thumbnail" alt="Cinque Terre" style="max-width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="container-fluid">
+                      
+                          <div class="container-fluid"> 
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card card-wide" style="background-color: #cfd0cd; margin-bottom: 20px;">
+                                        <div class="card-header" style="background-color: #b0b1ad; color: #000000;">
+                                            <h4>1. Ringkasan Pembelian</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="text-dark">Vintage Ellese MultiColor Goose Down Jacket
+                                            </h5>
+                                            <p class="text-dark">Deskripsi Barang:</p>
+                                            <ul class="text-dark">
+                                                <li>Size: M fit L</li>
+                                                <li>Condition: Good Condition</li>
+                                            </ul>
+                                            <p>Harga: Rp100.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Menambahkan jarak antara dua blok "Ringkasan Pembelian" dan "Beli Sekarang" -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card card-wide" style="background-color: #cfd0cd; margin-bottom: 20px;">
+                                        <div class="card-header" style="background-color: #b0b1ad; color: #000000;">
+                                            <h4>2. Alamat</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="text-dark">Alamat : </h5>
+                                            <p>Untuk yang berada diluar Kota Jambi, pastikan isi alamat dengan benar. Dan untuk yang berada di Kota Jambi mau ambil langsung cukup isi Ambil langsung.</p>
+                                            <div class="card-body">
+                                                <textarea id="alamat" class="form-control" rows="4"></textarea>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Menambahkan kartu pembayaran di antara kartu pembelian dan beli sekarang -->
+                            <div class="row">
+                              <div class="col-md-12">
+                                  <div class="card card-wide" style="background-color: #cfd0cd; margin-bottom: 20px;">
+                                      <div class="card-header" style="background-color: #b0b1ad; color: #000000;">
+                                          <h4>3. Metode Pembayaran</h4>
+                                      </div>
+                                      <div class="card-body">
+                                          <label for="transfer_bank" class="text-dark">
+                                              <input type="radio" id="transfer_bank" name="payment_method"
+                                                  value="transfer_bank">
+                                              <img src="images/atm.png" alt="Transfer Bank Logo"
+                                                  style="max-height: 30px; margin-right: 10px;">
+                                          </label><br>
+                                          <label for="dana" class="text-dark">
+                                              <input type="radio" id="dana" name="payment_method" value="dana">
+                                              <img src="images/dana.png" alt="Dana Logo"
+                                                  style="max-height: 30px; margin-right: 10px;">
+                                          </label><br>
+                                          <label for="gopay" class="text-dark">
+                                              <input type="radio" id="gopay" name="payment_method" value="gopay">
+                                              <img src="images/gopay copy.png" alt="Gopay Logo"
+                                                  style="max-height: 30px; margin-right: 10px;">
+                                          </label><br>
+                                          <label for="ovo" class="text-dark">
+                                              <input type="radio" id="ovo" name="payment_method" value="ovo">
+                                              <img src="images/OVO copy.png" alt="OVO Logo"
+                                                  style="max-height: 30px; margin-right: 10px;">
+                                          </label><br>
+                                          <a href="pesananselesai.html" class="btn btn-primary btn-block"
+                                              style="background-color: #000000;">Pesan Sekarang</a>
+                                              
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            </div>
+                  </div>
+                  
+                  </div>
+                  
+                    </div>
+                </div>
+                
+                
+                
+                </div>
+                
+                </div>
+                
+                    </div>
+                    
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <section class="info_section">
+        </section>
+        <section class="info_section ">
+            <div class="info_container layout_padding-top">
+              <div class="container">
+                <div class="heading_container">
+                  <h2 class="text-warning">Hubungi kami</h2>
+                </div>
+                <div class="info_main">
+                  <div class="row">
+                    <div class="col-md-4 col-lg-3">
+                      <div class="info_contact ">
+                        <a href="#" class="link-box">
+                          <div class="img-box">
+                            <img src="images/location.png" alt="" />
+                          </div>
+                          <div class="detail-box">
+                            <h6>
+                              Kota Jambi
+                            </h6>
+                          </div>
+                        </a>
+                        <a href="#" class="link-box">
+                          <div class="img-box">
+                            <img src="images/mail.png" alt="" />
+                          </div>
+                          <div class="detail-box">
+                            <h6>
+                              ThriftSecraba@gmail.com
+                            </h6>
+                          </div>
+                        </a>
+                        <a href="#" class="link-box">
+                          <div class="img-box">
+                            <img src="images/call.png" alt="" />
+                          </div>
+                          <div class="detail-box">
+                            <h6>
+                              Call +01 1234567890
+                            </h6>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-lg-3">
+                      <div class="info_link-box">
+                        
+                          <li class=" active">
+                            <a class="" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="">
+                            <a class="" href="about.html">Tentang </a>
+                          </li>
+                          <li class="">
+                            <a class="" href="gallery.html">Galeri </a>
+                          </li>
+                          <li class="">
+                            <a class="" href="contact.html">Kontak </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-6 ">
+                      <div class="social_box">
+                        <a href="#">
+                          <img src="images/facebook.png" alt="" />
+                        </a>
+                        <a href="#">
+                          <img src="images/twitter.png" alt="" />
+                        </a>
+                        <a href="#">
+                          <img src="images/linkedin.png" alt="" />
+                        </a>
+                        <a href="#">
+                          <img src="images/instagram.png" alt="" />
+                        </a>
+                        <a href="#">
+                          <img src="images/youtube.png" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <footer class="footer_section ">
+            <div class="container">
+              <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved. Design by
+                <a href="https://html.design/">Free Html Templates</a>
+              </p>
+            </div>
+          </footer>
+          <script src="js/jquery-3.4.1.min.js"></script>
+          <script src="js/bootstrap.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+          <script src="js/custom.js"></script>
+</body>
+</html>
